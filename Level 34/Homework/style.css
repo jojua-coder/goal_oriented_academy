@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+SA&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+
+body{
+    text-align: center;
+    background-color: aqua;
+}
+p{
+    font-family: "Playwrite AU SA", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.id{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#id{
+   text-shadow: 0px 4px 4px red; 
+}
+img{
+    border: 3px solid red;
+    border-radius: 15px;
+}
+h2{
+    font-family: "Rubik Vinyl", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: red;
+}
