@@ -1,0 +1,35 @@
+body{
+    background-color: aqua;
+p{
+    transition: 1s;
+}
+}
+p:hover{
+font-size: 20px;
+background-color: blue;
+}
+h4:hover{
+    font-size: 23px;
+    background-color:blueviolet;
+    }
+
+a:visited{
+    color: white;
+    background-color: black;
+    font-size: 25px;
+    text-decoration: none;
+}
+tr:nth-child(even){
+    background-color: blue;
+}
+h4{
+    transition: 1s;
+}
+tr:hover{
+    background-color:rgb(115, 119, 123);
+    transition: 1s;
+}
+
+table{
+    border-collapse: collapse;
+}
