@@ -28,3 +28,5 @@ a:hover{
     background-color: black;
     color: white;
 }
+tr:nth-child(even){
+    background-color: rgba(107,107,107, 0.6);}
