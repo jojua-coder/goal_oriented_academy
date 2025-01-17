@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+    background-color: aqua;
+}
+input{
+    border: 3px solid blue;
+    border-radius: 15px;
+}
+img{
+    border: 3px solid blue;
+    border-radius: 50%;
+}
+h3:hover{
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
