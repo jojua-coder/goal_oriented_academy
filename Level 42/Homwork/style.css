@@ -1,8 +1,9 @@
 body{
     background-color:hsl(0, 0%, 8%);
     display: flex;
-    justify-items: center;
+    justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 img{
     width: 70px;

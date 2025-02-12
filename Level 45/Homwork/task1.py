@@ -50,3 +50,33 @@ def sum_mul(n, m):
         if i % n == 0:
             sum += i
     return sum
+
+#5 Multiple of index
+def multiple_of_index(arr):
+    l = []
+    
+    if arr[0] == 0:
+        l.append(0)
+    
+    for i in range(1,len(arr)):
+        if arr[i] % i == 0:
+            l.append(arr[i])
+    return l
+
+#6 How old will I be in 2099?
+def calculate_age(year_of_birth, current_year):
+    my_age = current_year - year_of_birth 
+    
+    if my_age < 0:
+        
+        my_age =  -(my_age)
+        
+        if my_age == 1:
+            return f"You will be born in {my_age} year."
+        
+        return f"You will be born in {my_age} years."
+    
+    elif my_age == 0:
+        return 'You were born this very year!'
+    elif my_age == 1:
+        return f"You are {my_age} year old."
