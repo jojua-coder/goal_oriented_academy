@@ -1,0 +1,38 @@
+.sa{
+    width: 70px;
+    height: 70px;
+   background-color: rgba(256,0,0,0.7);
+    margin: 5px;
+    display: flex;
+    color: white;
+}
+#sandro{
+    display: flex;
+    justify-content: space-around;
+}
+
+#ff{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  
+}
+.fff{
+    width: 70px;
+    height: 70px;
+    background-color: rgba(256,0,0,0.7);
+    margin: 25px;
+    
+}
+.sab{
+    width: 70px;
+    height: 70px;
+    background-color: rgba(256,0,0,0.7);
+    margin: 5px;
+    color: aqua;
+}
+#saba{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
