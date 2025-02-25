@@ -1,0 +1,20 @@
+.saba{
+    width: 70px;
+    height: 70px;
+   background-color: rgba(256,0,0,0.7);
+    margin: 4px;
+    
+    color: white;
+}
+#sandro{
+    display: flex;
+    justify-content: space-between;
+    
+    
+    flex-direction: column;
+    gap: 120px;
+  
+    
+
+}
+
