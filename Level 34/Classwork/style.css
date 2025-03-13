@@ -19,8 +19,8 @@ body{
     text-decoration: line-through wavy;
     text-shadow: 3px 0px 5px blue;
     font-family: "Roboto", serif;
-  font-weight: 100;
-  font-style: normal;
+    font-weight: 100;
+    font-style: normal;
 }
 #div3{
     text-shadow: 3px 0px 5px blue;

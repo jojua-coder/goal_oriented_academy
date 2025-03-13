@@ -1,0 +1,27 @@
+body{
+    background-color: aqua;
+    display: flex;
+    Justify-content:center;
+    Align-items:center
+}
+
+.sigh{
+    
+    text-align: center;
+    margin-left: 20px;
+    width: 200px;
+    border: 8px rgb(21, 0, 255) ridge;
+    border-radius: 30px;
+    margin: 3px;   
+    
+ 
+}
+@media (max-width:188px){
+    from{
+     width: 170px;
+    }
+ }
+ @media (max-width:150px){
+     from{
+      width: 130px;}
+     }

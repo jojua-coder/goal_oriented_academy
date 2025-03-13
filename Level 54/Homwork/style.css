@@ -1,0 +1,32 @@
+body{
+    background-color: aqua;
+    align-items: center;
+
+    
+}
+img{
+    width: 700px;
+
+}
+h1{
+    text-shadow: 3px 3px 6px red;
+}
+p{
+    font-size: 20px;
+    text-shadow: 3px 3px 6px red;
+}
+@media (max-width:600px){
+    img{
+     width: 500px;
+    }
+ }
+ @media (max-width:350px){
+     img{
+      width: 450px;
+     }
+  }
+  @media (max-width:400px){
+     img{
+      width: 300px;
+     }
+  }

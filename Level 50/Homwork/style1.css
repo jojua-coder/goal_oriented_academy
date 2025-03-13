@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+body{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#left{
+    background-color: hsl(31, 77%, 52%);
+    width: 330px;
+    height: 500px;
+    border-radius: 10px 0px 0px 10px;
+ 
+    
+}
+#car1{
+    position: relative;
+    left: 40px;
+    top: 40px;
+}
+#se{
+    font-size: 32px;
+    color: white;
+    position: relative;
+    top: 55px;
+    left: 40px;
+    font-weight: 900;
+}
+#se2{
+    
+    margin: 55px;
+    position: relative;
+    top: 70px;
+    color: rgba(255, 255, 255, 0.755);
+}
+#bu2{
+    position: relative;
+    top: 120px;
+    left: 80px;
+    font-size: 28px;
+    background-color: hsl(31, 77%, 52%);
+    border: 2px solid rgba(255, 255, 255, 0.748);
+    border-radius: 50px;
+    color: rgba(255, 255, 255, 0.755);
+}
+#midel{
+    background-color:hsl(184, 100%, 22%);
+    width: 330px;
+    height: 500px;
+    
+}  
+#car2{
+    position: relative;
+    left: 40px;
+    top: 40px;
+}
+#su{
+    font-size: 32px;
+    color: white;
+    position: relative;
+    top: 55px;
+    left: 40px;
+    font-weight: 900; 
+}
+#su2{
+      
+    margin: 55px;
+    position: relative;
+    top: 70px;
+    color: rgba(255, 255, 255, 0.755);
+}
+#bu1{
+    position: relative;
+    top: 100px;
+    left: 40px;
+    font-size: 28px;
+    background-color: hsl(184, 100%, 22%);;
+    border: 2px solid rgba(255, 255, 255, 0.748);
+    border-radius: 50px;
+    color: rgba(255, 255, 255, 0.755);
+}
+#Luxury{
+    background-color:hsl(179, 100%, 13%);
+    width: 330px;
+    height: 500px;
+    border-radius: 0px 10px 10px 0px;
+}
+#bu3{
+    position: relative;
+    top: 120px;
+    left: 40px;
+    font-size: 28px;
+    background-color:  hsl(179, 100%, 13%) ;
+    border: 2px solid rgba(255, 255, 255, 0.748);
+    border-radius: 50px;
+    color: rgba(255, 255, 255, 0.755);
+}
