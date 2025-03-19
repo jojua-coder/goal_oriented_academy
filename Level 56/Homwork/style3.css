@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;}
+
+#sandro{
+width: 50px;
+height: 50px;
+background: skyblue;
+border-radius: 50%;
+}
+#sandro:hover{
+width: 200px;
+height: 200px;
+transform: translate(200px,0px);
+transition: 2s;
+}

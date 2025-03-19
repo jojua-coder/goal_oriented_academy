@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+img{
+    width: 360px;
+    
+}
+img:hover{
+    width: 180px;
+    transform: translate(150px,-200px);
+    transition: 2s;
+    border-radius: 50%;
+}

@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+   
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+#bro1{
+    background: black;
+    width: 150px;
+    height: 150px;
+    transform: translate(125px);
+}
+#bro1:hover{
+    transform: translate(-50px,100px);
+    background: blue;
+    transition: 1s;
+    width: 50%;
+    transform: rotate(180deg);
+}

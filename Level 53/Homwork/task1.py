@@ -21,3 +21,6 @@ fast_food.add("kitri")
 print(fast_food)
 
 
+#5
+def sandro(list1):
+    return list(set(list1))
