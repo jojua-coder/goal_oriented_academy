@@ -39,3 +39,16 @@ def sum_str(a, b):
         return a
     else:
         return str(int(a) + int(b))
+    
+# 6 List Filtering
+def filter_list(l):
+    filtered = []
+    for i in l:
+        if type(i) == int:
+            filtered.append(i)
+    return filtered
+
+
+#7 Array plus array
+def array_plus_array(arr1,arr2):
+     return sum(arr1)+sum(arr2)

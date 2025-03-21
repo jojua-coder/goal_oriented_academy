@@ -38,3 +38,57 @@ def solve(s):
         return s.lower()
     else:
         return s.upper()
+    
+#4 String array duplicates
+def dup(arry):
+    result = []
+    
+    for i in arry:
+        test = ""
+
+        for x in range(len(i)):
+            if test == "" or i[x] != test[-1]:
+                test += i[x]
+                
+        result.append(test)
+    return result
+
+print(dup(["abracadabra","allottee","assessee"])) 
+
+
+#5 Expressions Matter
+def expression_matter(a, b, c):
+    l = [a*(b+c), a * b * c, (a+b) * c,a+b+c]
+    
+    return max(l)
+  
+
+
+#6 Stop gninnipS My sdroW!
+def spin_words(sentence):
+    sentence = sentence.split(" ")
+    
+    l = []
+    
+    for i in sentence:
+        if len(i) >= 5:
+            l.append(i[::-1])
+        else:
+            l.append(i)
+    return " ".join(l)
+#7 Case-sensitive!
+def case_sensitive(s):
+    st = []
+    
+    if s == "":
+        return [True,[]]
+    
+    l = [s.islower(),st]
+    
+    
+    if s.islower() == False:
+        for i in s:
+            if i.isupper():
+                st.append(i)
+    return l
+
