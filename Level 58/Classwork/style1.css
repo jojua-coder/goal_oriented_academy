@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+*{
+    margin: 0;
+
+    padding: 0;
+}
+div{
+    width: 200px;
+    height: 200px;
+    animation-name: sandro;
+    animation-duration: 7s;
+    background-color: red;}
+    @keyframes sandro{
+        0%{
+            position: relative;
+            top:40px ;
+            background-color: red;
+        }
+        30%{
+            position: relative;
+            right: 60px;
+            background-color: green;
+          
+        }
+    
+        60%{
+            position: relative;
+            bottom: 40px ;
+            background-color: yellow;
+        }
+
+        100%{
+            position: relative;
+            left: 60px;
+            background-color: red;
+            animation-delay: 5s;
+        }
+    }
