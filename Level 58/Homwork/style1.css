@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    width: 200px;
+    height: 200px;
+    background: blue;
+    animation-name: sandro;
+    animation-duration:7s;
+    
+}
+@keyframes sandro{
+    50%{
+        border-radius: 50%;
+        position: relative;
+        left: 100px;
+        animation-delay: 7s;
+    }
+
+}

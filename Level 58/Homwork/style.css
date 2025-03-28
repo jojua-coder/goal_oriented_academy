@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    width: 150px;
+    height: 150px;
+    background: blue;
+    animation-name: sandro;
+    animation-duration:5s;
+    animation-delay: 3s;
+}
+@keyframes sandro{
+    5%{
+      transform: rotate(360deg);
+      width: 50%;
+      background: red;
+      animation-duration:5s;
+    }
+    50%{
+        background-color: yellow;
+        width: 150px;
+        height: 150px;
+    }
+}

@@ -1,0 +1,56 @@
+body{
+    background-color:  hsl(210, 46%, 95%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#sandro{
+    width: 750px;
+    height: 300px;
+    background: white;
+    border-radius: 10px;
+}
+#img1{
+    width: 280px;
+    height: 300px;
+    border-radius: 10px 0px 0px 10px;
+}
+#p1{
+    margin:160px ;
+    position: relative;
+    bottom: 460px;
+    left: 150px;
+    color:  hsl(217, 19%, 35%);
+    font-size: 28px;
+}
+#p2{
+position: relative;
+bottom: 600px;
+left: 140px;
+
+color: hsl(214, 17%, 51%);
+margin: 170px;
+
+
+}
+#img22{
+    position: relative;
+    bottom: 757px;
+    left: 310px;
+    width: 40px;
+    border-radius: 50%;
+  
+}
+#w1{
+    position: relative;
+    bottom: 810px;
+    left: 360px;
+
+}
+#w2{
+    position: relative;
+    bottom: 820px;
+    left: 360px;
+    color:hsl(214, 17%, 51%) ;
+}
