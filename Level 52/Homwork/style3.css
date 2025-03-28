@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    width: 200px;
+    height: 200px;
+    background: green;
+    border-radius: 50%;
+}
+div:hover{
+    transition: 10s;
+    transform: rotate(360deg);
+    position: relative;
+    left: 90px;
+    right: 90px;
+    top: 90px;
+    bottom: 90px;
+ 
+}
