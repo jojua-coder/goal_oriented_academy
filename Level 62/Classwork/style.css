@@ -1,0 +1,12 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.item1{
+    display: grid;
+    grid-template-rows: 100px,100px,100px,50px;
+    grid-template-columns: 100px;
+    background-color: aqua;
+}
