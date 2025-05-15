@@ -23,7 +23,18 @@ console.log(Math.random() * 100)
 
 
 //3 შექმენით ცვლადი სადაც შეიახავთ 5'ის ფარგლებში რენდომ რიცხვს,ეს რიცხვი დაამრგვალეთ "ზემოთ" და შემდეგ გამოიტანეთ ამ რიცხვის კვადრატი.
-let x=console.log(Math.random() * 5);
+let x=Math.random() * 5;
 console.log(x)
-console.log(Math.ceil(x))
+x =  Math.ceil(x)
 console.log(Math.pow(x,2))
+
+//4 შექმენით person ობიექტი, მასში შეინახეთ სახელი, გვარი და ასაკი რომელსაც აარჩევთ math.random()'ის მეშვეობით 20'ის ფარგლებში. აუცილებლად შეინახეთ მთელი რიცხვი შემდეგ კი დაბეჭდეთ ობიექტი.
+let my={
+    name:"sandro",
+    username:"jojua",
+    age:"15"
+}
+console.log(my)
+
+console.log(Math.random() * 20)
+
