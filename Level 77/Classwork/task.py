@@ -47,3 +47,29 @@ def sum_str(a, b):
         return a
     else:
         return str(int(a) + int(b))
+    
+#7 Remove the minimum
+def remove_smallest(numbers):
+    if numbers == []:
+        return []
+    
+    x = numbers.copy()
+    min_number = min(x)
+    index = x.index(min_number)
+    x.pop(index)
+    return x
+ 
+#8 Cat years, Dog years
+def human_years_cat_years_dog_years(human_years):
+#     [humanYears,catYears,dogYears]
+    res = [human_years,0,0]
+    if human_years == 1:
+        res[1] = 15
+        res[2] = 15
+    elif human_years == 2:
+        res[1] = 15 + 9
+        res[2] = 15 + 9
+    elif human_years > 2:
+        res[1] = 15 + 9 + (4 * (human_years -2))
+        res[2] = 15 + 9 + (5 * (human_years - 2))
+    return res
