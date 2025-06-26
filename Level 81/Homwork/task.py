@@ -14,3 +14,21 @@ def count_bits(n):
     x = bin(n)[2:]
     result = x.count("1")
     return result
+
+
+#3 Kebabize
+def kebabize(st):
+    #your code here
+    s = ""
+    for i in st:
+        if i.isalpha():
+            if i.isupper():
+                s += "-" + i.lower()
+            else:
+                s += i
+    if len(s) > 0:
+        if s[0] == "-":
+            s = s[1:]
+    return s
+
+
