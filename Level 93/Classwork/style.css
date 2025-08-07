@@ -1,0 +1,69 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background-color: rgba(128, 128, 128, 0.23);
+}
+#dv{
+    width: 300px;
+    height: 300px;
+    background-color:white;
+    box-shadow: 1px 1px 1px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#text{
+    position: relative;
+    top: 15px;
+    left: 25px;
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+}
+#password{
+      position: relative;
+    top: 15px;
+    left: 25px;
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+}
+#btn{
+    position: relative;
+    top: 50px;
+    left: 25px;
+    width: 250px;
+    height: 35px;
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+    font-weight: 900;
+    
+}
+#pe{
+    position: relative;
+    top: 50px;
+    left: 90px;
+    color: rgba(0, 0, 255, 0.688);
+}
+#f{
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+#btnn{
+    position: relative;
+    top: 45px;
+    left: 60px;
+    width: 170px;
+    height: 35px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(0, 128, 0, 0.77);
+}
+#cr{
+    position: relative;
+    top: 55px;
+    left: 15px;
+}

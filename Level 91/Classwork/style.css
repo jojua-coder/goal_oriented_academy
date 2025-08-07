@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+#inst{
+  font-family: "Knewave", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  position: relative;
+  bottom: 30px;
+}
+#in{
+
+    position: relative;
+    right: 200px;
+    top: 20px;
+    width:220px;
+    height: 30px;
+    border-radius: 3px;
+}
+#btn{
+    position: relative;
+    top: 70px;
+    right: 199px;
+    border-radius: 5px;
+    width: 224px;
+    height: 30px;
+    background-color:skyblue;
+    color: white;
+}
+#fac{
+    position: relative;
+    top: 100px;
+    right: 150px;
+    color:darkblue;
+}
+#facc{
+    width: 20px;
+    position: relative;
+    top: 80px;
+    right: 180px;
+}
+#fr{
+    position: relative;
+    top: 100px;
+    right: 150px;
+    color: green;
+}

@@ -1,0 +1,97 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  hsl(234, 29%, 20%);
+    height: 100vh;
+}
+#conteiner{
+    
+    width: 750px;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    
+}
+#ap{
+    color:hsl(234, 29%, 20%) ;
+    font-size: 42px;
+    font-weight: 600;
+}
+#chil{
+    position: relative;
+    left: 40px;
+   
+}
+#pa{
+    position: relative;
+    bottom:30px;
+    
+}
+#pa1{
+    position: relative;
+    bottom:45px;  
+}
+#pro{
+    width: 20px;
+    position: relative;
+    bottom: 30px;
+}
+#san{
+    position: relative;
+    left: 40px;
+    bottom: 68px;
+}
+#pro1{
+    width:20px ;
+    position: relative;
+    bottom: 65px;
+}
+#san1{
+    position: relative;
+    left: 40px;
+    bottom: 105px;
+}
+#pro2{
+    width:20px ;
+    position: relative;
+    bottom: 100px;
+}
+#san2{
+     position: relative;
+    left: 40px;
+    bottom: 140px;
+}
+#form{
+    position: relative;
+    bottom: 100px;
+    font-weight: 600;
+}
+#email{
+   width: 320px;
+   height: 40px;
+   border-radius:5px;
+}
+#btn{
+   width: 325px;
+   height: 40px;
+   border-radius:5px;
+   position: relative;
+   top: 70px;
+   right: 330px;
+   background-color:hsl(4, 100%, 67%) ;
+   color: white;
+   border: none;
+ 
+}
+#btn:hover{
+    box-shadow: 3px 3px 6px  hsl(4, 100%, 67%);
+   
+}
+#logo{
+    width: 300px;
+    position: relative;
+    left: 370px;
+    bottom: 380px;
+    border-radius:none;
+}

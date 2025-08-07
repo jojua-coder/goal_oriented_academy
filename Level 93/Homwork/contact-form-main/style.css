@@ -1,0 +1,132 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  hsl(148, 38%, 91%);
+    height: 100vh;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#conteiner{
+    width: 520px;
+    height: 560px;
+    background-color: white;
+    border-radius: 10px;
+}
+#child{
+    position: relative;
+    left: 40px;
+    top: 20px;
+}
+#co{
+    font-size: 25px;
+    font-weight: 600;
+}
+#fo1{
+    width:200px;
+    height: 30px;
+    border-radius: 5px;
+    gap: 10px;
+    border: 1px solid hsl(186, 15%, 59%);
+}
+#fo2{
+    width:200px;
+    height: 30px;
+    border-radius: 5px;
+    position: relative;
+    left: 20px;
+    border: 1px solid hsl(186, 15%, 59%);
+}
+#la{
+    position: relative;
+    left: 230px;
+    bottom: 5px;
+    color:hsl(187, 24%, 22%);
+}
+#la1{
+    position: relative;
+    top: 15px;
+    color: hsl(187, 24%, 22%);
+}
+#fo{
+    color: hsl(186, 15%, 59%);
+}
+#em{
+    width: 427px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid hsl(186, 15%, 59%);
+    position: relative;
+    top: 40px;
+}
+#emm{
+    position: relative;
+    bottom: 10px;
+    color:hsl(187, 24%, 22%)
+}
+#btt{
+    position: relative;
+    top: 100px;
+}
+#qq{
+    position: relative;
+    top: 45px;
+    color:hsl(187, 24%, 22%);
+    
+}
+#btt{
+    position: relative;
+    top: 60px;
+    width:200px;
+    height: 30px;
+    border-radius: 5px;
+   
+    border: 1px solid hsl(186, 15%, 59%);
+    background-color: white;
+  
+}
+#btt1{
+    width:200px;
+    height: 30px;
+    border-radius: 5px;
+    gap: 10px;
+    border: 1px solid hsl(186, 15%, 59%);
+    background-color: white;
+    position: relative;
+    top: 60px;
+    left: 30px;
+}
+#mes{
+    position: relative;
+    top: 80px;
+    color:hsl(187, 24%, 22%);
+}
+#btb{
+    position: relative;
+    top: 100px;
+    width: 435px;
+    height: 85px;
+    border-radius:5px;
+    border:  hsl(186, 15%, 59%);
+    background-color: white;
+    border: 1px solid  hsl(187, 24%, 22%);
+
+}
+#i{
+    position: relative;
+    top: 120px;
+    left: 20px;
+    color: hsl(186, 15%, 59%);
+}
+#su{
+    position: relative;
+    top: 160px;
+    width: 435px;
+    height: 35px;
+    border-radius: 5px;
+    background-color:hsl(169, 82%, 27%);
+    color: white;
+    border: none;
+}

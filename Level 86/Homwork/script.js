@@ -5,4 +5,23 @@ for(let i of namber){
     console.log(i)
 }
 
+//2 )შექმენით 2 სია, შემდეგ პირველ სიაში ჩაამატეთ 10 ელემენტი,შემდეგ პირველი სიიდან მეორე სიაში ჩამატეთ ყველა ელემნტი ფორ ლუპით
+// გამოიყენთ of
+const list = [1,2,3,4,5,6,7,8,9,10];
+const list1 = [];
+for (let i of list) {
+  list1.push(i);
+}
+console.log(list1);
 
+
+//3 სტრინგს გადაუარეთ ფორ ლუპით და შეამოწმე არის თუარა ის ხმოვანი, თუ არის გამოიტანეთ თუარა არ გამოიტანოთ
+// გამოიენეთ of
+const text = "my name is sandro";
+const vowels = "aeiou";
+
+for (let i of text) {
+  if (vowels.includes(i)) {
+    console.log(i);
+  }
+}
