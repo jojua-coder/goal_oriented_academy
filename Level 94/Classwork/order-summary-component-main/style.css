@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+body{
+background-color: hsl(225, 100%, 94%);
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+font-family: "Red Hat Display", sans-serif;
+font-optical-sizing: auto;
+font-weight: weight;
+font-style: normal;
+}
+#sandro{
+    width: 400px;
+    height: 610px;
+    background-color: aqua;
+    background-color: white;
+    border-radius: 12px;
+}
+img{
+    width: 400px;
+    border-radius: 12px 12px 0 0;
+}
+#sa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3vh;
+    font-weight: 850;
+    font-size: 33px;
+}
+#sa1{
+font-size: 18.5px;
+color: rgba(0, 0, 0, 0.563);
+margin: 11px;
+padding: 40px;
+position: relative;
+bottom: 40px;
+}
+#sandra{
+    width: 300px;
+    height: 80px;
+    background:hsla(225, 100%, 94%, 0.267);
+    position: relative;
+    left: 50px;
+    bottom: 70px;
+    border-radius: 5px;
+}
+#src{
+    width: 40px;
+    position: relative;
+    left: 15px;
+    top: 20px;
+}
+.san{
+position: relative; 
+left: 80px;
+bottom: 40px;
+font-weight: 600;
+
+}
+.san1{
+    position: relative; 
+    left: 80px;
+    bottom: 55px;
+    color: rgba(0, 0, 0, 0.342);
+     
+}
+#goa{
+    color: blue;
+    position: relative;
+    left: 225px;
+    bottom:100px ;
+    text-decoration: underline;
+}
+#goa:hover{
+    text-decoration: none;
+}
+#sa3{
+    width: 300px;
+    height: 45px;
+    background-color: hsla(245, 75%, 52%, 0.658);
+    position: relative;
+    bottom: 60px;
+    border-radius: 10px;
+}
+#sandr2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4vh;
+    color: white;
+    
+    border-radius: 10px;
+    
+}
+#goal{
+    position: relative;
+    left: 90px;
+    top: 10px;
+    font-weight: 850;
+}
